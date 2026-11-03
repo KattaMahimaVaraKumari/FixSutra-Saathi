@@ -1,5 +1,3 @@
-You are a senior full-stack engineer and accessibility-focused product designer. Build a complete, demo-ready web app called "FixSutra Saathi" for a hackathon run by Sarvam AI. Judges score on: (1) creativity, (2) number and depth of technical features, (3) how many people benefit if shipped. Optimize for all three, and make the app impressive to demo live in 3 minutes.
-
 ## 1. PRODUCT
 FixSutra Saathi is an accessible repair-skills network. It captures expert technicians' repair knowledge (by voice and photo), turns it into a searchable knowledge base, and delivers it in formats that deaf, blind, and speech-impaired learners and technicians can use. It also lets them run repair businesses through a call-relay assistant.
 
@@ -75,26 +73,3 @@ H. Safety and trust
 - Backend: Node/Express or Python FastAPI with endpoints for transcribe, speak, structure-case, translate, vision-read, search, relay-reply, report-result. Use WebSockets for live captions.
 - Storage: SQLite (or a JSON file) with a seed script.
 - Include: README with setup, .env.example, run scripts, an architecture diagram (Mermaid) in the README, and a "Demo Script" page in the repo describing the 3-minute demo flow.
-
-## 7. DEMO MODE
-Add a "Guided Demo" button that walks through the 3-minute flow with pre-loaded sample inputs:
-1. A technician records a pump repair by voice and photo, and a structured case appears.
-2. Switch to Blind mode and hear step-by-step guidance.
-3. Switch to Deaf mode and see captions and the visual decision tree.
-4. A customer call comes in, the deaf technician replies by tapping, and the booking is created.
-5. The technician reports the result, and the knowledge base and impact counters update.
-Include sample audio and images in an /assets/demo folder (placeholders are fine).
-
-## 8. QUALITY BAR
-- No placeholder "lorem ipsum"; use realistic repair content (capacitor failure in a pump, inverter battery sulfation, mixer grinder motor brush wear, etc.).
-- Handle errors gracefully (mic permission denied, API timeout) with friendly messages and automatic fallback to mock mode.
-- Fast and responsive. Show loading states. Lighthouse accessibility score target 95+.
-- Clean, commented code and a clear folder structure. Add basic tests for the case-structuring and relay endpoints.
-
-## DELIVERABLES
-1. The working app, runnable with one command.
-2. README with setup, architecture, Sarvam feature mapping table, safety notes, and a limitations section.
-3. Seed data and demo assets.
-4. A short summary of what you built and any assumptions made.
-
-Start by planning the architecture and folder structure, then read the Sarvam docs, then build the backend, then the frontend, and finish with the demo mode and polish.
