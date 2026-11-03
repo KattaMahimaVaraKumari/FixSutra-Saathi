@@ -1,4 +1,3 @@
-You are a senior full-stack engineer and accessibility-focused product designer. Build a complete, demo-ready web app called "FixSutra Saathi" for a hackathon run by Sarvam AI. Judges score on: (1) creativity, (2) number and depth of technical features, (3) how many people benefit if shipped. Optimize for all three, and make the app impressive to demo live in 3 minutes.
 
 ## 1. PRODUCT
 FixSutra Saathi is an accessible repair-skills network. It captures expert technicians' repair knowledge (by voice and photo), turns it into a searchable knowledge base, and delivers it in formats that deaf, blind, and speech-impaired learners and technicians can use. It also lets them run repair businesses through a call-relay assistant.
